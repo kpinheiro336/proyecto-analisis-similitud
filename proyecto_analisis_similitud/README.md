@@ -4,7 +4,7 @@ Script en Python que hace **web scraping** de productos Xiaomi en Amazon España
 
 ---
 
-## 📌 ¿Qué hace este proyecto?
+##  ¿Qué hace este proyecto?
 
 1. **Scraping de Amazon** — Abre Safari, busca "xiaomi" en Amazon.es y extrae el nombre y precio de cada producto.
 2. **Análisis de similitud** — Compara todos los títulos entre sí para encontrar productos que podrían ser el mismo (o muy parecidos) publicados por distintos vendedores.
@@ -13,7 +13,7 @@ Script en Python que hace **web scraping** de productos Xiaomi en Amazon España
 
 ---
 
-## 🧠 Algoritmo de similitud utilizado
+##  Algoritmo de similitud utilizado
 
 Este proyecto usa el algoritmo **Ratcliff/Obershelp**, implementado en Python a través de [`difflib.SequenceMatcher`](https://docs.python.org/3/library/difflib.html#difflib.SequenceMatcher).
 
@@ -50,7 +50,7 @@ El umbral por defecto es **75 %**: solo se muestran los pares que superen ese po
 
 ---
 
-## 🚀 Instalación y uso
+##  Instalación y uso
 
 ### Requisitos previos
 
@@ -74,7 +74,7 @@ python analisis_similitud_xiaomi.py
 
 ---
 
-## 📊 Ejemplo de salida
+##  Ejemplo de salida
 
 ### Tabla de productos encontrados
 
@@ -96,7 +96,7 @@ Los archivos CSV se guardan en el **Escritorio** y se pueden abrir directamente 
 
 ---
 
-## 📁 Estructura del proyecto
+##  Estructura del proyecto
 
 ```
 proyecto_analisis_similitud/
@@ -109,7 +109,7 @@ proyecto_analisis_similitud/
 
 ---
 
-## ⚙️ Configuración
+##  Configuración
 
 Puedes ajustar estas constantes al inicio del script:
 
@@ -120,6 +120,6 @@ Puedes ajustar estas constantes al inicio del script:
 
 ---
 
-## 📝 Licencia
+##  Licencia
 
 Proyecto con fines educativos. No afiliado a Amazon. Los datos pueden variar.
