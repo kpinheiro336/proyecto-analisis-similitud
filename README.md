@@ -78,19 +78,19 @@ python analisis_similitud_xiaomi.py
 
 ### Tabla de productos encontrados
 
-![Productos encontrados en terminal](images/terminal_productos_encontrados.png)
+![Productos encontrados en terminal](proyecto_analisis_similitud/images/terminal_productos_encontrados.png)
 
 ### Tabla de similitud entre productos
 
-![Análisis de similitud en terminal (parte 1)](images/terminal_similitud_productos1.png)
+![Análisis de similitud en terminal (parte 1)](proyecto_analisis_similitud/images/terminal_similitud_productos1.png)
 
-![Análisis de similitud en terminal (parte 2)](images/terminal_similitud_productos2.png)
+![Análisis de similitud en terminal (parte 2)](proyecto_analisis_similitud/images/terminal_similitud_productos2.png)
 
 ### Tablas abiertas en Excel / Numbers
 
 | Productos | Similitud |
 |:---------:|:---------:|
-| ![CSV productos](images/tabla_productos.png) | ![CSV similitud](images/tabla_similitud_productos.png) |
+| ![CSV productos](proyecto_analisis_similitud/images/tabla_productos.png) | ![CSV similitud](proyecto_analisis_similitud/images/tabla_similitud_productos.png) |
 
 Los archivos CSV se guardan en el **Escritorio** y se pueden abrir directamente con doble clic en Excel o Numbers.
 
